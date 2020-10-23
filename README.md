@@ -2,6 +2,7 @@
 recover goroutine panic and support goroutine restart.
 
 # example
+```go
 package main
 
 import (
@@ -28,4 +29,5 @@ func main() {
     
     select{}
 }
+```
 
